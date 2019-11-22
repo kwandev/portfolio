@@ -1,68 +1,28 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">
-        portfolio
-      </h1>
-      <h2 class="subtitle">
-        LeeKyeongHwan Portfolio
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <main role="main">
+      <jumbotrons />
+      <div class="py-5 bg-light">
+        <div class="container">
+          <project-list />
+        </div>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 
 <script>
+import Jumbotrons from '~/components/Jumbotrons'
+import ProjectList from '~/components/ProjectList'
+
 export default {
+  name: 'Index',
   components: {
+    Jumbotrons,
+    ProjectList
   }
 }
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
