@@ -4,7 +4,7 @@
     class="mb-4 shadow-sm"
   >
     <template v-slot:header>
-      <nuxt-link tag="a" to="/project/pines">
+      <nuxt-link :to="`/project/${project.id}`" tag="a">
         <svg
           class="bd-placeholder-img card-img-top"
           width="100%"
@@ -21,25 +21,36 @@
         </svg>
       </nuxt-link>
     </template>
+    <b-card-title>
+      <div :title="project.name" class="text-truncate">
+        {{ project.name }}
+      </div>
+    </b-card-title>
     <b-card-text>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum in, veritatis eum, deleniti autem saepe ex soluta a quod similique labore illum ipsum voluptate culpa adipisci dolor reprehenderit possimus natus!
+      {{ project.summary }}
     </b-card-text>
 
     <div class="d-flex justify-content-between align-items-center">
       <b-button @click="goProject" variant="outline-secondary" size="sm">
         View
       </b-button>
-      <small class="text-muted">9 mins</small>
+      <small class="text-muted">{{ project.date }}</small>
     </div>
   </b-card>
 </template>
 
 <script>
 export default {
+  props: {
+    project: {
+      type: Object,
+      required: true
+    }
+  },
   methods: {
     goProject () {
       this.$router.push({
-        path: '/project/pines'
+        path: `/project/${this.project.id}`
       })
     }
   }

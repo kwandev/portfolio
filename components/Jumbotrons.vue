@@ -2,19 +2,11 @@
   <div class="text-center">
     <b-jumbotron>
       <template v-slot:header>
-        Album example
+        안녕하세요. 이경환입니다.
       </template>
       <template v-slot:lead>
-        This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-        featured content or information.
+        해당 페이지는 세부 경력기술을 위해 만들었습니다. 자세한 데이터 정보는 피해가 없도록 가려놨습니다. 이미지는 참고만 해주세요.
       </template>
-
-      <b-button variant="primary" href="#">
-        More Info
-      </b-button>
-      <b-button variant="secondary" href="#">
-        More Info
-      </b-button>
     </b-jumbotron>
   </div>
 </template>
@@ -40,5 +32,8 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
+}
+@media (max-width: 767px) {
+  .display-3 { font-size: 3rem; }
 }
 </style>

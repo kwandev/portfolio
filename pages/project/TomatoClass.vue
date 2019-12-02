@@ -30,7 +30,7 @@
 
     <section class="container py-5">
       <section class="mb-5">
-        <h2>🚀 파인즈</h2>
+        <h2>🚀 토마토클래스</h2>
         <p class="text-muted">
           프로젝트 간단한 설명 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem voluptates dolorum quaerat saepe cum unde vitae, nisi, voluptas praesentium beatae officia in asperiores deserunt ut iste molestias, possimus ipsam. Rerum.
         </p>
