@@ -5,20 +5,25 @@
   >
     <template v-slot:header>
       <nuxt-link :to="`/project/${project.id}`" tag="a">
-        <svg
-          class="bd-placeholder-img card-img-top"
-          width="100%"
-          height="225"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="xMidYMid slice"
-          focusable="false"
-          role="img"
-          aria-label="Placeholder: Thumbnail"
-        >
-          <title>title</title>
-          <rect width="100%" height="100%" fill="#55595c" />
-          <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-        </svg>
+        <template v-if="project.thumbnail">
+          <img :alt="project.name" :src="thumbnail">
+        </template>
+        <template v-else>
+          <svg
+            class="bd-placeholder-img card-img-top"
+            width="100%"
+            height="225"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+          >
+            <title>title</title>
+            <rect width="100%" height="100%" fill="#55595c" />
+            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
+          </svg>
+        </template>
       </nuxt-link>
     </template>
     <b-card-title>
@@ -47,6 +52,11 @@ export default {
       required: true
     }
   },
+  computed: {
+    thumbnail () {
+      return require(`~/assets/img/thumbnail/thumbnail_${this.project.thumbnail}`)
+    }
+  },
   methods: {
     goProject () {
       this.$router.push({
@@ -57,8 +67,18 @@ export default {
 }
 </script>
 
-<style scoped>
-  .card-header { padding: 0; }
+<style lang="scss" scoped>
+  .card-header {
+    padding: 0;
+    height: 225px;
+    overflow: hidden;
+
+    a > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
 
   @media (min-width: 768px) {
     .card-text {

@@ -17,8 +17,8 @@
             </h4>
             <ul class="list-unstyled">
               <li><a href="mailto:rudghks7816@gmail.com" class="text-white">rudghks7816@gmail.com</a></li>
-              <li><a href="https://leekyeonghwan.github.io" class="text-white" target="_blank">Blog</a></li>
-              <li><a href="https://github.com/LeeKyeongHwan" class="text-white" target="_blank">Github</a></li>
+              <li><a href="https://blog.khwan.kr" class="text-white" target="_blank">Blog</a></li>
+              <li><a href="https://github.com/khwan7816" class="text-white" target="_blank">Github</a></li>
             </ul>
           </div>
         </div>
