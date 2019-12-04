@@ -2,7 +2,7 @@
   <div>
     <detail>
       <section class="mb-5">
-        <h2>🚀 알앤디오피스 <small>/ 사이버라인</small></h2>
+        <h2>🚀 알앤디오피스 <small>/ Back-end / 사이버라인</small></h2>
         <p class="text-muted">
           연구과제 수행을 위한 클라우드 전자연구노트 웹서비스, 기초적인 웹 개발 경험을 할 수 있었음.
         </p>
@@ -22,7 +22,7 @@
       <section class="mb-5">
         <h3>👍 기여</h3>
         <p class="text-muted">
-          관리자페이지, My Page, Sub Page, 운영, 유지보수
+          관리자페이지, My Page, Sub Page, 운영 및 유지보수
         </p>
         <p class="text-muted">
           20 / 100
