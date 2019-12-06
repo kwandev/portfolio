@@ -26,6 +26,9 @@
       <section class="mb-5">
         <h3>👍 기여</h3>
         <p class="text-muted">
+          각 홈페이지 메인, 상세 화면
+        </p>
+        <p class="text-muted">
           50 / 100
         </p>
       </section>

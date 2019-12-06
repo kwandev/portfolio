@@ -21,6 +21,9 @@
       <section class="mb-5">
         <h3>👍 기여</h3>
         <p class="text-muted">
+          인생플랜, 보장분석, 설계지원 상품도서관 등 모든 화면
+        </p>
+        <p class="text-muted">
           Front-end: 90 / 100
         </p>
       </section>
