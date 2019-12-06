@@ -14,6 +14,7 @@
           <li>CSS / Sass</li>
           <li>JS / Vue / jQuery</li>
           <li>Bootstrap</li>
+          <li>Gulp</li>
           <li>Git</li>
         </ul>
       </section>
