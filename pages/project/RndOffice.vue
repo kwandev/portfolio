@@ -6,16 +6,19 @@
         <p class="text-muted">
           연구과제 수행을 위한 클라우드 전자연구노트 웹서비스, 기초적인 웹 개발 경험을 할 수 있었음.
         </p>
+        <p class="text-muted">
+          <a href="https://www.rndoffice.com/" target="_blank">알앤디오피스</a>
+        </p>
       </section>
       <section class="mb-5">
         <h3>🛠 기술스택</h3>
         <ul>
+          <li>Spring MVC / 전자정부프레임워크</li>
+          <li>JSP</li>
+          <li>Cburid</li>
           <li>HTML</li>
           <li>CSS</li>
-          <li>JS / jQuery</li>
-          <li>JSP</li>
-          <li>Spring MVC / 전자정부프레임워크</li>
-          <li>Cubrid</li>
+          <li>jQuery</li>
           <li>SVN</li>
         </ul>
       </section>

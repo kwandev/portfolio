@@ -12,9 +12,10 @@
         <ul>
           <li>HTML</li>
           <li>CSS / Sass</li>
-          <li>JS / jQuery</li>
-          <li>Vue / vue-cli-3</li>
-          <li>Semantic UI</li>
+          <li>Vue</li>
+          <li>JS / ES6+</li>
+          <li>jQuery</li>
+          <li>ESLint</li>
           <li>Webpack</li>
           <li>Git</li>
           <li>Restful API</li>

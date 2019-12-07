@@ -10,10 +10,11 @@
       <section class="mb-5">
         <h3>🛠 기술스택</h3>
         <ul>
-          <li>JSP</li>
           <li>Spring MVC</li>
-          <li>JS / jQeury</li>
+          <li>JSP</li>
           <li>MS-SQL</li>
+          <li>jQeury</li>
+          <li>SVN</li>
         </ul>
       </section>
       <section class="mb-5">

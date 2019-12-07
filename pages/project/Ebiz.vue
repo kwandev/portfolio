@@ -18,9 +18,11 @@
         <ul>
           <li>HTML</li>
           <li>CSS / Sass</li>
-          <li>Bootstrap</li>
+          <li>Vue</li>
+          <li>jQueryp</li>
           <li>Gulp</li>
           <li>Git</li>
+          <li>Restful API</li>
         </ul>
       </section>
       <section class="mb-5">

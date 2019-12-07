@@ -12,10 +12,11 @@
         <ul>
           <li>HTML</li>
           <li>CSS / Sass</li>
-          <li>JS / Vue / jQuery</li>
-          <li>Bootstrap</li>
+          <li>Vue</li>
+          <li>jQuery</li>
           <li>Gulp</li>
           <li>Git</li>
+          <li>Restful API</li>
         </ul>
       </section>
       <section class="mb-5">

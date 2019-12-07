@@ -5,25 +5,7 @@
   >
     <template v-slot:header>
       <nuxt-link :to="`/project/${project.id}`" tag="a">
-        <template v-if="project.thumbnail">
-          <img :alt="project.name" :src="thumbnail">
-        </template>
-        <template v-else>
-          <svg
-            class="bd-placeholder-img card-img-top"
-            width="100%"
-            height="225"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-            role="img"
-            aria-label="Placeholder: Thumbnail"
-          >
-            <title>title</title>
-            <rect width="100%" height="100%" fill="#55595c" />
-            <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-          </svg>
-        </template>
+        <img :alt="project.name" :src="thumbnail">
       </nuxt-link>
     </template>
     <b-card-title>
@@ -36,7 +18,7 @@
     </b-card-text>
 
     <div class="d-flex justify-content-between align-items-center">
-      <b-button @click="goProject" variant="outline-secondary" size="sm">
+      <b-button @click="goProject" :variant="project.role === 'FE' ? 'outline-primary' : 'outline-secondary'" size="sm">
         View
       </b-button>
       <small class="text-muted">{{ project.date }}</small>
