@@ -16,6 +16,7 @@
         <ul>
           <li>Vue</li>
           <li><a href="https://gridsome.org/" target="_blank">Gridsome</a></li>
+          <li>Netlify</li>
         </ul>
       </section>
       <section class="mb-5">
