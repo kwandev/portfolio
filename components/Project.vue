@@ -5,7 +5,9 @@
   >
     <template v-slot:header>
       <nuxt-link :to="`/project/${project.id}`" tag="a">
-        <img :alt="project.name" :src="thumbnail">
+        <template v-if="thumbnail">
+          <img :alt="project.name" :src="thumbnail">
+        </template>
       </nuxt-link>
     </template>
     <b-card-title>
