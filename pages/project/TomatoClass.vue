@@ -8,6 +8,10 @@
         </p>
         <p class="text-muted">
           능률에서 운영하는 영어교육 서비스. 서비스의 운영 및 유지보수를 주로 담당했고, 레거시코드의 고도화 작업을 병행했다.
+
+          <ul>
+            <li><a href="https://tomato.neclass.com" target="_blank">토마토클래스</a></li>
+          </ul>
         </p>
       </section>
       <section class="mb-5">
