@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 T-STSTEM <small>/ Front-end / 피플라이프</small></h2>
         <p class="text-muted">
+          2019. 3 ~ 2019. 11
+        </p>
+        <p class="text-muted">
           전화 보험판매원을 위한 영업관리 시스템, Vue를 활용한 소·중규모 SPA 애플리케이션.
         </p>
       </section>

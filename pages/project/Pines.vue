@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 파인즈 <small>/ Front-end / 피플라이프</small></h2>
         <p class="text-muted">
+          2018. 6 ~ 2019. 11
+        </p>
+        <p class="text-muted">
           사내 ERP 시스템, Vue를 활용한 중·대규모 SPA 애플리케이션
         </p>
       </section>

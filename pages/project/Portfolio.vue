@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 포트폴리오 <small>/ Front-end / 개인</small></h2>
         <p class="text-muted">
+          2019. 12 ~
+        </p>
+        <p class="text-muted">
           이력서에 적기 힘든 상세한 내용을 적기 위한 포트폴리오 웹사이트.
         </p>
       </section>

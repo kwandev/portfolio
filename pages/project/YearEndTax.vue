@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 FA연말정산시스템 <small>/ Front-end / 피플라이프</small></h2>
         <p class="text-muted">
+          2017. 11 ~ 2018. 2
+        </p>
+        <p class="text-muted">
           보험판매원(FA)을 위한 사내 연말정산 시스템 UI 개발
         </p>
       </section>

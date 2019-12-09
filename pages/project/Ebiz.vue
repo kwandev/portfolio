@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 사내 운영 홈페이지 퍼블리싱 <small>/ Front-end / 피플라이프</small></h2>
         <p class="text-muted">
+          2018. 2 ~ 2019. 11
+        </p>
+        <p class="text-muted">
           사내에서 운영하는 각종 홈페이지 퍼블리싱, 유지보수
           <ul>
             <li><a href="https://peoplelife.kr" target="_blank">피플라이프 기업홈페이지</a></li>

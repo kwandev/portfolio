@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 ThumbnailMaker <small>/ Front-end / 개인</small></h2>
         <p class="text-muted">
+          2019. 11
+        </p>
+        <p class="text-muted">
           썸네일을 쉽게 만들어주는 기능을 가진 사이드 프로젝트
           <ul>
             <li><a href="https://github.com/khwan7816/thumbnailmaker" target="_blank">Github</a></li>

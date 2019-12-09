@@ -4,8 +4,10 @@
       <section class="mb-5">
         <h2>🚀 블로그 <small>/ Front-end / 개인</small></h2>
         <p class="text-muted">
+          2019. 11 ~
+        </p>
+        <p class="text-muted">
           스터디나 트러블슈팅을 기록하기 위한 블로그, 의무감보단 개인적인 기록에 의의를 두고 있음.
-
           <ul>
             <li><a href="http://blog.khwan.kr/" target="_blank">블로그 바로가기</a></li>
           </ul>

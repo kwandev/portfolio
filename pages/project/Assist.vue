@@ -4,6 +4,9 @@
       <section class="mb-5">
         <h2>🚀 어시스트 <small>/ Front-end / 피플라이프</small></h2>
         <p class="text-muted">
+          2018. 2 ~ 2018. 6
+        </p>
+        <p class="text-muted">
           보험판매원(FA)을 위한 영업지원 시스템 '어시스트 (Assist)' UI 개발 / 유지보수
         </p>
       </section>
