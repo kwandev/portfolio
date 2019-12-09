@@ -30,7 +30,7 @@
           프로젝트 세팅, 로그인 인증, 메뉴관리, 권한관리 등 ERP 내 공통 기능 및 화면 개발
         </p>
         <p class="text-muted">
-          Front-end: 80 / 100
+          Front-end: 70 / 100
         </p>
       </section>
       <section class="mb-5">
