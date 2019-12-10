@@ -1,22 +1,11 @@
-# portfolio
+# 이경환 포트폴리오
 
-> LeeKyeongHwan Portfolio
+ 이력서에 적기 애매한 세부내용을 기술하기 위해 만든 웹사이트 프로젝트입니다.
 
-## Build Setup
+ 참고용으로만 봐주시면 감사하겠습니다.
 
-``` bash
-# install dependencies
-$ yarn install
+## Feature
 
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+* 기업프로젝트
+* 개인프로젝트
+* 프로젝트별 기간, 기술스택, 간략한 회고 및 기여도
