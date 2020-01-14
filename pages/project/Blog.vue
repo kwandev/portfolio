@@ -9,7 +9,7 @@
         <p class="text-muted">
           스터디나 트러블슈팅을 기록하기 위한 블로그, 의무감보단 개인적인 기록에 의의를 두고 있음.
           <ul>
-            <li><a href="http://blog.khwan.kr/" target="_blank">블로그 바로가기</a></li>
+            <li><a href="http://khwan.kr" target="_blank">블로그 바로가기</a></li>
           </ul>
         </p>
       </section>
@@ -17,7 +17,7 @@
         <h3>🛠 기술스택</h3>
         <ul>
           <li>Vue</li>
-          <li><a href="https://gridsome.org/" target="_blank">Gridsome</a></li>
+          <li><a href="https://gridsome.org" target="_blank">Gridsome</a></li>
           <li>Netlify</li>
         </ul>
       </section>
