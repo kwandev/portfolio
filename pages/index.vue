@@ -100,10 +100,18 @@ export default {
       ],
       privateProjects: [
         {
+          id: 'khitenoise',
+          name: '백색소음',
+          thumbnail: 'khite-noise.png',
+          summary: '종류별 백색소음을 들을 수 있고, 들은 시간을 재주는 웹앱',
+          date: '2020. 01',
+          role: 'FE'
+        },
+        {
           id: 'portfolio',
           name: '포트폴리오',
           thumbnail: 'portfolio.png',
-          summary: '이력서에 적기 힘든 상세한 내용을 적기 위한 포트폴리오 웹사이트.',
+          summary: '이력서에 적기 힘든 상세한 내용을 적기 위한 포트폴리오 웹사이트',
           date: '2019. 12',
           role: 'FE'
         },
